@@ -1,7 +1,12 @@
 # PDF_TO_TXT
 use java ,code by others
-要是没有什么特殊要求（图片解析）建议使用java的代码，使用OCR需要配置tesseract ocr环境
-
+要是没有什么特殊要求（图片解析）建议使用java的代码，
+        <dependency>
+            <groupId>io.github.jonathanlink</groupId>
+            <artifactId>PDFLayoutTextStripper</artifactId>
+            <version>2.2.3</version>
+        </dependency>
+使用OCR需要配置tesseract ocr环境
 or use OCR（将pdf转换成图片再解析）效果不太好
 ## 1.download tesseract on windows
 https://digi.bib.uni-mannheim.de/tesseract/
